@@ -1,0 +1,100 @@
+*, *::before, *after {
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {background-color:#FFFFFF;
+}
+
+body {
+
+  background-color: #2B95D6;
+  font-family: SF Pro Display; helvatic; sans-serif;
+  height: 667px; /* iphone 8 height*/
+  margin: 0 auto;
+  width: 375px; /*iphone 8 width*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2B95D6;
+}
+
+li {
+  float: left;
+  padding: 16px;
+}
+
+li a{
+display: block;
+color: #4F4F4F;
+text-align: center;
+padding: 16px;
+}
+
+.bus-info-row {
+  display: block;
+  text-align: center;
+  padding: 16px;
+}
+
+.container {
+  height: 100%;
+  margin: auto;
+  width: 100%;
+}
+
+header {
+  height: 20px;
+}
+
+.bus-list {
+  margin-top: 80px;
+  line-height: 1em;
+  display: inline-block;
+  width: 375px;
+}
+
+.location {
+  background-color:#ECECEC;
+  margin: auto;
+  padding: 20px 0 10px 15px;
+  line-height: 20px;
+  border-bottom: 1px solid #2B95D6;
+  display: inline-block;
+  width: 375px;
+}
+
+.content h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.content h3 {
+  font-size: 14px
+}
+.content {
+display: inline-block;
+width: 90%;
+text-align: center;
+}
+
+.time {
+  text-align: right;
+  padding-right: 15px;
+  float: right;
+  font-size: 14px;
+  padding: 0;
+}
+
+.time h2 {
+  font-weight: bold;
+}

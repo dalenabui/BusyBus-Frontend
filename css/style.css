@@ -1,16 +1,11 @@
 *, *::before, *after {
   box-sizing: border-box;
 }
-*{
-  margin: 0;
-  padding: 0;
-}
 
 html {background-color:#FFFFFF;
 }
 
 body {
-
   background-color: #2B95D6;
   font-family: SF Pro Display; helvatic; sans-serif;
   height: 667px; /* iphone 8 height*/
@@ -18,30 +13,29 @@ body {
   width: 375px; /*iphone 8 width*/
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #2B95D6;
-}
-
-li {
-  float: left;
-  padding: 16px;
-}
-
-li a{
-display: block;
-color: #4F4F4F;
-text-align: center;
-padding: 16px;
+.search-options {
+  background-color: #ECECEC;
+  padding: 10px 0 10px 10px;
+  border-radius: 5px;
+  height: 46px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .bus-info-row {
-  display: block;
-  text-align: center;
-  padding: 16px;
+  display: inline-block;
+  background-color: #ECECEC;
+  border-bottom: 10px solid #2B95D6;
+  border-top: 5px solid #2B95D6;
+  width: 375px;
+  height: 59px;
+}
+
+.fa-bus {
+  color: #2B95D6;
+}
+.status-bar {
+  height: 20px;
 }
 
 .container {
@@ -50,51 +44,59 @@ padding: 16px;
   width: 100%;
 }
 
-header {
-  height: 20px;
+.nav {
+  padding: 10px 0 10px 10px;
 }
 
-.bus-list {
-  margin-top: 80px;
-  line-height: 1em;
+.nav h2 {
+ float: right;
+ margin-right: 10px;
+ color: #FFFFFF;
+ font-size: 17px;
+}
+
+
+.bus-info {
   display: inline-block;
-  width: 375px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .location {
   background-color:#ECECEC;
   margin: auto;
-  padding: 20px 0 10px 15px;
   line-height: 20px;
   border-bottom: 1px solid #2B95D6;
   display: inline-block;
-  width: 375px;
+  width: 365px;
+  padding: 10px 0 10px 10px;
 }
 
 .content h2 {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 0;
 }
 
 .content h3 {
-  font-size: 14px
+  font-size: 14px;
+
 }
 .content {
 display: inline-block;
-width: 90%;
-text-align: center;
 }
 
 .time {
   text-align: right;
-  padding-right: 15px;
-  float: right;
+  float:right;
   font-size: 14px;
-  padding: 0;
+  display: inline-block;
+  padding-right: 20px;
 }
 
 .time h2 {
   font-weight: bold;
+}
+
+.time h3 {
 }

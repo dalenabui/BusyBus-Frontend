@@ -13,9 +13,20 @@ body {
   width: 375px; /*iphone 8 width*/
 }
 
+.form {
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+.form input {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .search-options {
   background-color: #FFFFFF;
-  padding: 10px 0 10px 10px;
   border-radius: 5px;
   height: 46px;
   margin-left: 20px;
@@ -23,20 +34,16 @@ body {
   text-align: center;
 }
 
-.route {
+.option {
   display: inline-block;
   color: #4F4F4F;
-  padding-right: 20px;
+  width: 30%;
+  height: 50px;
 }
-.suburd {
-  display: inline-block;
-  color: #4F4F4F;
-}
-.stop {
-  display: inline-block;
-  color: #4F4F4F;
-  font-weight: bold;
 
+.suburb {
+  border-left: 2px solid #979797;
+  border-right: 2px solid #979797;
 }
 
 .bus-info-row {
@@ -88,6 +95,7 @@ body {
   top: -5px;
   left: 20px;
   margin-right: 10px;
+  width: 30px;
 
   font-size: 24px;
   font-weight: bold;

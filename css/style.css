@@ -13,10 +13,18 @@ body {
   width: 375px; /*iphone 8 width*/
 }
 
+.start-end img {
+  float: left;
+  position: relative;
+  left: 35px;
+  top: 13px;
+}
+
 .form {
   padding-left: 50px;
   padding-right: 40px;
 }
+
 
 .form input {
   width: 100%;
@@ -39,11 +47,19 @@ body {
   color: #4F4F4F;
   width: 30%;
   height: 50px;
+  font-size: 14px;
+  position: relative;
+  top: 15px;
 }
 
 .suburb {
   border-left: 2px solid #979797;
   border-right: 2px solid #979797;
+}
+
+.stop {
+  background-color: #ECECEC;
+  font-weight: bold;
 }
 
 .bus-info-row {
@@ -55,10 +71,6 @@ body {
   height: 59px;
 }
 
-.Washington {
-  font-size: 16px;
-  font-weight: bold;
-}
 
 .fa-chevron-left {
   color: #FFFFFF;

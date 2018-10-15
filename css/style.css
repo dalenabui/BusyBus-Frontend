@@ -13,56 +13,78 @@ body {
   width: 375px; /*iphone 8 width*/
 }
 
-.start-end img {
-  float: left;
+.selection > div {
+  width: 90%;
+  margin: auto;
+}
+
+.selection .search-input div {
+  display: inline-block;
   position: relative;
-  left: 35px;
-  top: 13px;
 }
 
-.form {
-  padding-left: 50px;
-  padding-right: 40px;
+.selection .start-end {
+  width: 15px;
+  height: 75px;
+  padding-top: 20px;
 }
 
+.selection .form div {
+  display: block;
+}
+.selection .form {
+  float: right;
+  width: 95%;
+}
 
-.form input {
-  width: 100%;
-  margin: 5px;
+.selection .form input {
+  height: 20px;
+  width: 300px;
+  margin: 5px 0px 5px 0px;
   padding: 5px;
   border-radius: 5px;
 }
 
-.search-options {
+.selection .form form {
+  margin-left: 6px;
+}
+
+.selection .search-options {
   background-color: #FFFFFF;
   border-radius: 5px;
   height: 46px;
-  margin-left: 20px;
-  margin-right: 20px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
-.option {
+.selection .option {
   display: inline-block;
   color: #4F4F4F;
   width: 30%;
-  height: 50px;
+  height: 100%;
   font-size: 14px;
   position: relative;
-  top: 15px;
 }
 
-.suburb {
+.selection .option span {
+  margin: 15px;
+  display: inline-block;
+}
+
+.selection .suburb {
   border-left: 2px solid #979797;
   border-right: 2px solid #979797;
 }
 
-.stop {
+.selection .stop {
   background-color: #ECECEC;
   font-weight: bold;
+  margin: -3px;
+  width: 125px;
+  border-radius: 0px 5px 5px 0px;
 }
 
-.bus-info-row {
+.info .bus-info-row {
   background-color: #ECECEC;
   border-bottom: 10px solid #2B95D6;
   border-top: 5px solid #2B95D6;
@@ -71,6 +93,28 @@ body {
   height: 59px;
 }
 
+.info .left {
+  float: left;
+}
+
+.info .right {
+  float: right;
+}
+
+.info .bus-status {
+  display: inline-block;
+  width: 75%;
+  margin-left: 15px;
+  vertical-align: middle;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.location:hover {
+  background-color: #c3dff1;
+  cursor: pointer;
+}
 
 .fa-chevron-left {
   color: #FFFFFF;

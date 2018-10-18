@@ -111,7 +111,7 @@ body {
   font-weight: bold;
 }
 
-.location:hover {
+.location:hover, div:hover, a:hover {
   background-color: #c3dff1;
   cursor: pointer;
 }
@@ -169,13 +169,13 @@ body {
   padding-bottom: 10px;
 }
 
-.content h2 {
+h2 {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.content h3 {
+h3 {
   font-size: 14px;
 
 }
@@ -192,11 +192,11 @@ margin-left: 10%;
   padding-right: 20px;
 }
 
-.time h2 {
+h2 {
   font-weight: bold;
 }
 
-.time h3 {
+h3 {
 }
 
 .reroute {

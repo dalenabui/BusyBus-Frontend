@@ -85,7 +85,7 @@ body {
 }
 
 .info .bus-info-row {
-  background-color: #ECECEC;
+  background-color: #FFFFFF;
   border-bottom: 10px solid #2B95D6;
   border-top: 5px solid #2B95D6;
   padding-top: 10px;
@@ -159,7 +159,7 @@ body {
 }
 
 .location {
-  background-color:#ECECEC;
+  background-color:#FFFFFF;
   margin: auto;
   line-height: 20px;
   border-bottom: 1px solid #2B95D6;
@@ -200,11 +200,37 @@ h3 {
 }
 
 .reroute {
-  color: #FF9500;
+  color: #FF0000;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .outofservice {
-  color: #FF9500;
+  color: #979797;
   font-weight: bold;
+}
+
+.NoService .location {
+  background-color: #ECECEC;
+
+}
+
+.NoService h1 {
+  color: #979797;
+}
+
+.NoService h2 {
+  color: #979797;
+}
+
+.NoService h3 {
+  color: #979797;
+}
+
+.buschange h1 {
+  color: #FF0000;
+}
+
+.buschange h2 {
+  color: #FF0000;
 }
